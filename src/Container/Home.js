@@ -10,7 +10,7 @@ export default class Home extends Component {
       <div className="container-fluid pt-3 ">
         <Header />
         <InputBody />
-        <div className="row mt-2">
+        <div className=" row mt-2">
           <Card />
           <Card />
 

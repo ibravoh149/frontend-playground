@@ -7,38 +7,23 @@ import "react-circular-progressbar/dist/styles.css";
 
 const percentage = 66;
 const Card = () => (
-  <div
-    className="col-md-6 mt-1 row ml-2  col-sm-12"
-    style={
-      {
-        // marginLeft: "30px"
-      }
-    }
-  >
+  <div className="col-md-6 mt-1 row ml-2  col-sm-12">
     <div
-      className="row card mt-2 mb-2 col-md-12  col-sm-12"
+      className="row card mt-2 mb-2 col-md-12 col-12  col-sm-12"
       style={{
         height: "15em"
       }}
     >
       <div className="col-md-3  col-sm-12  mt-4 h-75 ">
         <img
-          className="h-100"
+          className="h-100 col-12"
           src={pic}
           alt="Card"
           // style={{ height: "10em" }}
         />
       </div>
-      <div
-        className="mt-4 ml-1 col-md-9 col-sm-8 "
-        style={
-          {
-            // padding: 0,
-            // margin: 0
-          }
-        }
-      >
-        <div>
+      <div className="mt-4 ml-1 col-md-9  col-12 col-sm-12">
+        <div className="">
           <h5 className="card-title">Bodo 1</h5>
         </div>
         <div className="">
