@@ -20,8 +20,11 @@ class Project extends Component {
 
                 <div className="container-fluid left-column">
                     <div className="row">
-                        <div className="col-sm float-lg-left">
-                            Title goes here
+                        <div className="col-sm">
+                            {/* <h4 className="project-title"> */}
+                                Bon Ngia K.Dere Pond Cleanup #4
+                            {/* </h4> */}
+
                         </div>
                         <div className="col-sm">
                         </div>
@@ -32,13 +35,13 @@ class Project extends Component {
                         <div className="col-sm float-lg-right">
                             <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                 <li className="nav-item">
-                                    <a className="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Overview</a>
+                                    <a className="nav-link active tab-text-style" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Overview</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Tasks</a>
+                                    <a className="nav-link tab-text-style" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Tasks</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Settings</a>
+                                    <a className="nav-link tab-text-style" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Settings</a>
                                 </li>
                             </ul>
                         </div>

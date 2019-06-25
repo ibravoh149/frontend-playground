@@ -9,7 +9,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Project />
+      <div style={{padding:"34px"}}>
+        <Project />
+      </div>
     </div>
   );
 }
