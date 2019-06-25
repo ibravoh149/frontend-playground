@@ -46,18 +46,19 @@ code {
 
 
 .align-left{
+  flex: 1;
   align-content: flex-start
 }
 
 .nav-link.active{
   background-color: white !important;
   border-bottom: 2px solid #31BCAB;
-  color: #31BCAB !important;
+  color: #000 !important;
 }
 
 
 .black-text{
-  color: #0000
+  color: #000
 }
 
 .nav-item.nav-link a{
@@ -65,15 +66,15 @@ code {
 }
 
 .image-box{
-width: 312px;
-height: 125px;
+width: 100%;
+height: 300px;
 border-radius: 6px;
 }
-.center-box{
+/* .center-box{
   margin-bottom: 50px;
   align-content: center;
   width: 312px;
-}
+} */
 
 .left-column{
   padding :32px
@@ -96,9 +97,144 @@ color: #9A9A9A;
 .project-description {
   margin-top: 27px;
   margin-bottom: 27px;
-  width: 312px;
+  /* width: 312px; */
 }
 
 .more{
   color:#6dbd7f;
 }
+
+.project-owner{
+  margin-bottom: 27px;
+
+}
+
+.tab-text-style{
+  font-family: San Francisco Text;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9A9A9A;
+}
+
+.project-owner h6{
+  font-family: San Francisco Text;
+  line-height: 17px;
+
+}
+
+
+.project-progress{
+  color: #9A9A9A;
+  margin-bottom: 27px;
+  /* width: 312px */
+
+}
+
+.project-progress .progress-title{
+  font-family: San Francisco Text;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9A9A9A;
+}
+
+.progress-bar-color{
+  background: #E9E9E9;
+}
+.progress-timeline{
+  background: white;
+  border:1px solid #C4C4C4;
+  height:25px;
+  border-radius: 9px;
+  box-sizing: border-box;
+}
+
+.progress-metric{
+  border-radius: 9px;
+  box-sizing: border-box;
+}
+
+.stakeholder-image{
+  height: 50px;
+  width:50px;
+  border-radius: 50%
+}
+
+.stakeholder-text{
+  font-family: San Francisco Text;
+font-size: 14px;
+line-height: 17px;
+/* display: flex; */
+align-items: center;
+
+color: #222222;
+}
+
+.stakeholder-action{
+  font-family: San Francisco Text;
+font-size: 12px;
+line-height: 14px;
+/* display: flex; */
+align-items: center;
+/* text-align: right; */
+}
+
+.goal-card{
+  border: 1px solid #ECECEC;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 2em;
+  margin: 24px;
+}
+
+.goal-title{
+  font-family: San Francisco Text;
+  font-size: 18px;
+  line-height: 21px;
+  color: #222222;
+}
+
+.metric-title{
+  font-family: San Francisco Text;
+  font-size: 14px;
+  line-height: 17px;
+
+
+color: #222222;
+
+}
+
+.metric-progress{
+  margin-top: 32px;
+}
+
+.metric-not-started{
+  background: #C4C4C4;
+}
+
+.goals{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.goals-heading{
+  font-family: San Francisco Text;
+  font-size: 15px;
+  line-height: 14px;
+  color: #9A9A9A;
+}
+
+.new-goal-button{
+  font-family: San Francisco Text;
+  font-size: 15px;
+  line-height: 14px;
+  text-align: right;
+  color: #6EBD7F;
+}
+
+/* .project-title{
+  font-family: San Francisco Text;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222; */
+  /* padding-top:2.3em; */
+/* } */
