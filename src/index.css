@@ -238,3 +238,48 @@ color: #222222;
   color: #222222; */
   /* padding-top:2.3em; */
 /* } */
+
+.has-search input[type=search]{
+  background: linear-gradient(191.67deg, #F5F6FA 14.14%, #F2F4F9 59.61%);
+  /* border-radius: 4px; */
+}
+.has-search .form-control-feedback{
+  position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.form-inline{
+  border-radius: 4px;
+}
+
+.table-check-box{
+  width: 1.5em;
+}
+
+.boxchecker input[type=checkbox] {
+  background-color: red;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+  background-color:black;
+}
+
+.tasks-stakeholder-image{
+  width: 34px;
+  height: 34px;
+  display: block;
+  margin: auto;
+}
+
+.task-name{
+  font-family: San Francisco Text;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #222222;
+}

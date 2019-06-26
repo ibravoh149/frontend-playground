@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-import { Overview } from '../Component/Overview'
+import { Tasks, Overview } from '../Component'
+// import * as $ from 'jquery'
 
 
 
@@ -12,6 +12,12 @@ class Project extends Component {
             description: "The ability to document the degradation of Total Petroleum Hydrocarbon (TPH) using the biotechnology ...",
             imageUrl: "https://s3.us-east-2.amazonaws.com/selamvp/project-avatars/b72758f2-8bb6-4dbc-839a-f15652a11675_WhatsAppImage2019-04-09at2.20.40PM.jpeg"
         }
+
+
+    }
+
+    componentDidMount() {
+
     }
 
     render() {
@@ -22,7 +28,7 @@ class Project extends Component {
                     <div className="row">
                         <div className="col-sm">
                             {/* <h4 className="project-title"> */}
-                                Bon Ngia K.Dere Pond Cleanup #4
+                            Bon Ngia K.Dere Pond Cleanup #4
                             {/* </h4> */}
 
                         </div>
@@ -54,8 +60,14 @@ class Project extends Component {
                             data={this.state}
                         />
                     </div>
-                    <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Tasks </div>
-                    <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Settings</div>
+                    <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <Tasks
+                            data={this.state}
+                        />
+                    </div>
+                    <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        Settings screen
+                    </div>
                 </div>
 
             </div>
