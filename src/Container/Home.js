@@ -8,7 +8,6 @@ export default class Home extends Component {
   render() {
     return (
       <div className="container-fluid pt-3 ">
-        <Header />
         <div className="">
           <div>
             <InputBody />
