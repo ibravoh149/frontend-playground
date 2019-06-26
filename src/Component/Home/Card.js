@@ -1,65 +1,36 @@
 import React from "react";
 
-import pic from "../../assets/project.png";
 
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 const percentage = 66;
+const pic = "https://s3.us-east-2.amazonaws.com/selamvp/project-avatars/b72758f2-8bb6-4dbc-839a-f15652a11675_WhatsAppImage2019-04-09at2.20.40PM.jpeg"
 // ml-2
 const Card = () => (
-  <div className="col-md-6 mt-1 row   col-sm-12">
-    <div
-      className="row card mt-2 mb-2 col-md-12 col-12  col-sm-12"
-      style={{
-        height: "15em"
-      }}
-    >
-    {/* col-sm-12  mt-4 */}
-      <div className="col-md-3   h-75 ">
-        <img
-          className="h-100 col-12"
-          src={pic}
-          alt="Card"
-          // style={{ height: "10em" }}
-        />
+  <div className="project-card">
+    <div className="row">
+      <div className="col-sm-12 col-md-4">
+        <div className="" >
+          <img className="project-card-image img-fluid" src={pic} alt="card" />
+        </div>
       </div>
-      <div className="mt-4 ml-1 col-md-9  col-12 col-sm-12">
-        <div className="">
-          <h5 className="card-title">Bodo 1</h5>
+
+      <div className="col-sm-12 col-md-8">
+        <div className="" style={{ marginBottom: "10px" }}>
+          <h6 className="card-project-title">Project title</h6>
+          <span className="location-title">Bodo I, Nigeria</span>
         </div>
         <div className="">
-          <p
-            className=""
-            style={{
-              fontWeight: "500",
-              fontSize: "15px",
-              color: "black"
-            }}
-          >
-            Bon Ngia K.Dere Pond Cleanup
-          </p>
+          <p className="desc-text">{"The ability to document the degradation of Total Petroleum Hydrocarbon (TPH) using the biotechnology ..."} <span className="more">more</span></p>
         </div>
 
-        <div>
-          <p>
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div
-          className="col-md-2 col-sm-4"
-          // style={{
-          //   height: "0.3px"
-          // }}
-        >
+        <div className="circular-progress rounded-circle">
           <CircularProgressbar
             value={percentage}
             text={`${percentage}%`}
             style={{ minWidth: "0.3vh", height: "0.2vh" }}
           />
-          ;
         </div>
       </div>
     </div>
