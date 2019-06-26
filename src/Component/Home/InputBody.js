@@ -2,7 +2,7 @@ import React from "react";
 
 const InputBody = () => (
   <div className="pt-4 no-gutters row">
-    <div className="col-sm-7">
+    <div className="col-md-7">
       <p
         style={{
           fontWeight: "500",
@@ -14,21 +14,12 @@ const InputBody = () => (
         Projects{" "}
       </p>
     </div>
-    <div className="col-sm-5 row">
-      <div className="col-sm-8">
-        <input
-          className=""
-          placeholder=" search ..."
-          type=""
-          class="form-control"
-        />
-      </div>
-      <div className="col-sm-4">
-        <button type="button" className="btn btn-success">
-          New Project
-        </button>
-      </div>
-    </div>
+    <div className="col-md-5">
+     <form className="form-inline my-2 my-lg-0">
+        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+     </div>
   </div>
 );
 
