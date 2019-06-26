@@ -12,25 +12,57 @@ export default class Home extends Component {
         <div className="">
           <div>
             <InputBody />
-            <div className=" row mt-2 ">
-            <div className="col-md-6 mb-2">
-              <Card />
+            {/* first */}
+            <div className="row mt-2">
+              <div className="col-md-6 mt-2">
+                <Card />
+              </div>
+
+              <div className="col-md-6 mt-2">
+                <Card />
+              </div>
             </div>
-              <div className="col-md-6 mb-2">
-              <Card />
+
+            {/* first */}
+
+            {/* second */}
+            <div className="row mt-2">
+              <div className="col-md-6 mt-2">
+                <Card />
+              </div>
+
+              <div className="col-md-6 mt-2">
+                <Card />
+              </div>
             </div>
-              <div className="col-md-6 mb-2">
-              <Card />
+            {/* second */}
+
+            {/* third */}
+            <div className="row mt-2">
+              <div className="col-md-6 mt-2">
+                <Card />
+              </div>
+
+              <div className="col-md-6 mt-2">
+                <Card />
+              </div>
             </div>
-              <div className="col-md-6 mb-2">
-              <Card />
+            {/* third */}
+
+            {/* four */}
+            <div className="row mt-2">
+              <div className="col-md-6 mt-2">
+                <Card />
+              </div>
+
+              <div className="col-md-6 mt-2">
+                <Card />
+              </div>
             </div>
-       
-              {/* <Card /> */}
-            </div>
+            {/* four */}
           </div>
+        </div>
       </div>
-    </div>
     );
   }
 }
