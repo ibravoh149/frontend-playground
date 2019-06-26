@@ -9,19 +9,23 @@ export default class Home extends Component {
     return (
       <div className="container-fluid pt-3 ">
         <Header />
-        <InputBody />
-        <div className=" row mt-2">
-          <Card />
-          <Card />
+        <div className="">
+          <div>
+            <InputBody />
+            <div className=" row mt-2 ">
+              <Card />
+              <Card />
 
-          <Card />
-          <Card />
+              <Card />
+              <Card />
 
-          <Card />
-          <Card />
-          {/* <Card /> */}
-        </div>
+              <Card />
+              <Card />
+              {/* <Card /> */}
+            </div>
+          </div>
       </div>
+    </div>
     );
   }
 }

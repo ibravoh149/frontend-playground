@@ -6,15 +6,17 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 const percentage = 66;
+// ml-2
 const Card = () => (
-  <div className="col-md-6 mt-1 row ml-2  col-sm-12">
+  <div className="col-md-6 mt-1 row   col-sm-12">
     <div
       className="row card mt-2 mb-2 col-md-12 col-12  col-sm-12"
       style={{
         height: "15em"
       }}
     >
-      <div className="col-md-3  col-sm-12  mt-4 h-75 ">
+    {/* col-sm-12  mt-4 */}
+      <div className="col-md-3   h-75 ">
         <img
           className="h-100 col-12"
           src={pic}
