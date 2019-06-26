@@ -51,6 +51,7 @@ const Card = () => (
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
+
               <div className="flex1"
               style ={{
                 height: "40px",
