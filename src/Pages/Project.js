@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Header } from './Component'
+// import '../App.css';
 
-import Project from './Container/Project'
+import { Header } from '../Component/Header'
 
-function App() {
+import Project from '../Container/Project'
+
+function ProjectPage() {
   return (
     <div className="App">
       <Header />
@@ -16,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default ProjectPage;
