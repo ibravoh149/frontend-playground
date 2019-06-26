@@ -13,14 +13,19 @@ export default class Home extends Component {
           <div>
             <InputBody />
             <div className=" row mt-2 ">
+            <div className="col-md-6 mb-2">
               <Card />
+            </div>
+              <div className="col-md-6 mb-2">
               <Card />
-
+            </div>
+              <div className="col-md-6 mb-2">
               <Card />
+            </div>
+              <div className="col-md-6 mb-2">
               <Card />
-
-              <Card />
-              <Card />
+            </div>
+       
               {/* <Card /> */}
             </div>
           </div>
