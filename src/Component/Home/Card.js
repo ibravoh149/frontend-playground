@@ -18,8 +18,8 @@ const Card = () => (
 
       <div className="col-sm-12 col-md-8">
         <div className="" style={{ marginBottom: "10px" }}>
-          <h6 className="card-project-title">Project title</h6>
           <span className="location-title">Bodo I, Nigeria</span>
+          <h6 className="card-project-title">Project title</h6>
         </div>
         <div className="">
           <p className="desc-text">{"The ability to document the degradation of Total Petroleum Hydrocarbon (TPH) using the biotechnology ..."} <span className="more">more</span></p>
