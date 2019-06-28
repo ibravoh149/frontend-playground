@@ -46,7 +46,7 @@ const Card = () => (
             value={percentage}
             text={`${percentage}%`}
             styles={buildStyles({
-              textSize: "24px",
+              textSize: "14px",
               textColor: "#9A9A9A",
               pathColor: "#A0D6AC"
               // trailColor: "gold"

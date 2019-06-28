@@ -361,8 +361,10 @@ color: #222222;
   color: rgb(184, 189, 110);
   /* background: rgb(84, 136, 95); */
 }
-.goal-table-text{
-  font-family: San Francisco Text;
-  font-size: 14px;
-  color: #222222;
+
+.location-title{
+ font-family: San Francisco Text;
+ font-size: 12px;
+ line-height: 14px;
+ color: #9A9A9A;
 }
