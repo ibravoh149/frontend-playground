@@ -1,16 +1,16 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
-import { CircularProgressbar } from "react-circular-progressbar";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-const percentage = 66;
+const percentage = 76;
 const pic =
   "https://s3.us-east-2.amazonaws.com/selamvp/project-avatars/b72758f2-8bb6-4dbc-839a-f15652a11675_WhatsAppImage2019-04-09at2.20.40PM.jpeg";
 // ml-2
 const goto = () => {
-  window.location.href = "/project"
-}
+  window.location.href = "/project";
+};
 
 const Card = () => (
   <div className="project-card" onClick={goto}>
@@ -18,7 +18,11 @@ const Card = () => (
       <div className="col-sm-12 col-md-4">
         <div className="">
           <Link to={`/project`}>
-            <img className="projects-card-image img-fluid" src={pic} alt="card" />
+            <img
+              className="projects-card-image img-fluid"
+              src={pic}
+              alt="card"
+            />
           </Link>
         </div>
       </div>
@@ -41,10 +45,14 @@ const Card = () => (
           <CircularProgressbar
             value={percentage}
             text={`${percentage}%`}
-            style={{ minWidth: "0.3vh", height: "0.2vh" }}
+            styles={buildStyles({
+              textSize: "24px",
+              textColor: "#9A9A9A",
+              pathColor: "#A0D6AC"
+              // trailColor: "gold"
+            })}
           />
         </div>
-
       </div>
     </div>
   </div>

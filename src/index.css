@@ -19,7 +19,7 @@ code {
   right: 34px;
   top: 63px;
   bottom: 34px;
-  height: ;
+  /* height: ; */
 
   background: #FFFFFF;
   /* Subtle drop */
@@ -360,4 +360,9 @@ color: #222222;
   /* text-align: right; */
   color: rgb(184, 189, 110);
   /* background: rgb(84, 136, 95); */
+}
+.goal-table-text{
+  font-family: San Francisco Text;
+  font-size: 14px;
+  color: #222222;
 }
