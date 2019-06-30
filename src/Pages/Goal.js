@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Header } from "../Component/Header";
 
 import Box from "../Component/Goal/Box";
 
+const goto = () => {
+  window.location.href = "/new-project";
+};
 function Goal() {
   return (
     <div className="App">
@@ -19,9 +23,10 @@ function Goal() {
               width: "50%"
             }}
           >
-            <div className="col-sm-12">
+            <div>
               <h5> Goal</h5>
             </div>
+
             <div className="d-flex flex-row no-gutters col-sm-12">
               <div className="col-md-8 no-gutters col-sm-12">
                 <p>
@@ -30,7 +35,10 @@ function Goal() {
                   with the default examples below or create your own.
                 </p>
               </div>
-              <div className="col-md-4 col-sm-12 d-flex justify-content-end">
+              <Link
+                to={`/new-project`}
+                className="col-md-4 col-sm-12 d-flex justify-content-end"
+              >
                 <button
                   className="btn btn-success my-2 my-sm-0"
                   type="submit"
@@ -41,7 +49,7 @@ function Goal() {
                 >
                   New Goal
                 </button>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

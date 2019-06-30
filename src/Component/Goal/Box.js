@@ -17,6 +17,92 @@ const Box = () => (
       paddingBottom: "15px"
     }}
   >
+    <div
+      className="modal fade col-md-12 "
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog col-md-12 " role="document">
+        <div class="modal-content col-md-12">
+          <div class="modal-body">
+            <div className="form-group">
+              <label for="exampleInputEmail1">Metric</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+            </div>
+          </div>
+
+          <div className="col-md-12 d-flex flex-row">
+            <div className="col-md-6">
+              <label for="exampleFormControlTextarea1">Baseline</label>
+              <div className="flex-row d-flex">
+                <input
+                  type="email"
+                  class="form-control col-md-3"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Pond Cleanup</option>
+                  <option>Pond Cleanup</option>
+                  <option>Pond Cleanup</option>
+                  <option>Pond Cleanup</option>
+                  <option>Pond Cleanup</option>
+                </select>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <label for="exampleFormControlTextarea1">Baseline</label>
+              <div className="flex-row d-flex">
+                <input
+                  type="email"
+                  class="form-control col-md-3"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Pond Cleanup</option>
+                  <option>Pond Cleanup</option>
+                  <option>Pond Cleanup</option>
+                  <option>Pond Cleanup</option>
+                  <option>Pond Cleanup</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-12 no-gutters mt-2 mb-2">
+            <span className="col-md-8">
+              <button
+                type="button"
+                className="btn btn-light col-md-6 no-gutters col-sm-12"
+              >
+                Cancel
+              </button>
+
+              <button
+                type="button"
+                className="btn btn-success col-md-6 no-gutters col-sm-12"
+              >
+                Next
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div className="col-md-12">
       <div>
         <h5> Goal </h5>
@@ -61,7 +147,12 @@ const Box = () => (
             <td className="goal-table-text">Otto</td>
             <td className="goal-table-text">@mdo</td>
             <td className="goal-table-text">
-              <img src={edit} alt="edit" />
+              <img
+                src={edit}
+                alt="edit"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              />
             </td>
           </tr>
           <tr className="col-md-4">
@@ -70,7 +161,12 @@ const Box = () => (
             <td className="goal-table-text">Thornton</td>
             <td className="goal-table-text">@fat</td>
             <td className="goal-table-text">
-              <img src={edit} alt="edit" />
+              <img
+                src={edit}
+                alt="edit"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              />
             </td>
           </tr>
           <tr className="col-md-2">
@@ -79,7 +175,12 @@ const Box = () => (
             <td className="goal-table-text">@twitter</td>
             <td className="goal-table-text">@fat</td>
             <td className="goal-table-text">
-              <img src={edit} alt="edit" />
+              <img
+                src={edit}
+                alt="edit"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              />
             </td>
           </tr>
         </tbody>
