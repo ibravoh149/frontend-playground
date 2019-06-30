@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 
 import Home from "./Pages/Home";
 import Project from "./Pages/Project";
+import NewProjectC from "./Pages/NewProject";
 
 import Goal from "./Pages/Goal";
 
@@ -13,7 +14,7 @@ const Routes = () => (
       <Route path="/home" component={Home} />
       <Route path="/project" component={Project} />
       <Route path="/goal" component={Goal} />
-      <Redirect to="/" />
+      <Route to="/new-project" component={NewProjectC} />
     </Switch>
   </div>
 );
