@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "my-react-app",
-  "alias": ["frontend-assessment","frontend-assessment.now.sh","https://frontend-assessment.now.sh"],
+  "alias": ["assessment","assessment.now.sh","https://assessment.now.sh"],
   "builds": [
     {
       "src": "package.json",
