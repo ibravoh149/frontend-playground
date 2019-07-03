@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import SelaLogo from "../assets/sela.png";
 import Profile from "../assets/profile.png";
@@ -9,9 +10,9 @@ export const Header = (props) => {
     return (
         <div style={{ zIndex: 9999 }}>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand" href="#">
+                <Link to ={`/`} className="navbar-brand" href="#">
                     <img src={SelaLogo} alt="logo" />
-                </a>
+                </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

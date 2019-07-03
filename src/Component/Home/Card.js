@@ -30,7 +30,7 @@ const Card = () => (
       <div className="col-sm-12 col-md-8">
         <div className="" style={{ marginBottom: "10px" }}>
           <span className="location-title">Bodo I, Nigeria</span>
-          <h6 className="card-project-title">Project title</h6>
+          <h6 className="card-project-title">Bon Ngia K.Dere Pond Cleanup #4</h6>
         </div>
         <div className="">
           <p className="desc-text">
