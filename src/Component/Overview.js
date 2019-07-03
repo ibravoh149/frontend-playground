@@ -73,7 +73,7 @@ export const Overview = ({ data }) => {
               <tr>
                 <td style={{ width: "5em" }}>
                   <img
-                    className="stakeholder-image img-fluid"
+                    className="stakeholder-image"
                     src={imageUrl}
                     alt="stakeholder"
                   />
@@ -89,7 +89,7 @@ export const Overview = ({ data }) => {
               <tr>
                 <td style={{ width: "5em" }}>
                   <img
-                    className="stakeholder-image img-fluid"
+                    className="stakeholder-image"
                     src={imageUrl}
                     alt="stakeholder"
                   />
@@ -105,7 +105,7 @@ export const Overview = ({ data }) => {
               <tr>
                 <td style={{ width: "5em" }}>
                   <img
-                    className="stakeholder-image img-fluid"
+                    className="stakeholder-image"
                     src={imageUrl}
                     alt="stakeholder"
                   />
@@ -124,9 +124,9 @@ export const Overview = ({ data }) => {
       </div>
       <div className="col-12 col-md-8">
         <div class="d-flex bd-highlight goals">
-          <div class="p-2 flex-grow-1 bd-highlight goals-heading">Goals</div>
-          <div class="p-2 bd-highlight" />
-          <Link to="/goal" class="p-2 bd-highlight new-goal-button">
+          <div class="flex-grow-1 bd-highlight goals-heading">Goals</div>
+          <div class="bd-highlight" />
+          <Link to="/goal" class="bd-highlight new-goal-button">
             New Goal
           </Link>
         </div>
