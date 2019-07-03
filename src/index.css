@@ -29,15 +29,16 @@ code {
 }
 
 .project-title{
-  position: absolute;
-  width: 443px;
-  height: 29px;
+  /* position: absolute; */
+  /* width: 443px; */
+  /* height: 29px;
   left: 63px;
-  top: 95px;
+  top: 95px; */
 
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   font-size: 24px;
   line-height: 29px;
+  margin-left: -10px;
   /* identical to box height */
   color: #222222;
 }
@@ -93,14 +94,14 @@ border-radius: 6px;
 }
 
 .image-title{
-font-family: San Francisco Text;
+/* font-family: San Francisco Text; */
 font-size: 12px;
 line-height: 14px;
 color: #9A9A9A;
 }
 
 .desc-text{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   font-size: 16px;
   line-height: 19px;
   color: #9A9A9A;
@@ -122,14 +123,14 @@ color: #9A9A9A;
 }
 
 .tab-text-style{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   font-size: 14px;
   line-height: 17px;
   color: #9A9A9A;
 }
 
 .project-owner h6{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   line-height: 17px;
 
 }
@@ -143,7 +144,7 @@ color: #9A9A9A;
 }
 
 .project-progress .progress-title{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   font-size: 14px;
   line-height: 17px;
   color: #9A9A9A;
@@ -172,7 +173,7 @@ color: #9A9A9A;
 }
 
 .stakeholder-text{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
 font-size: 14px;
 line-height: 17px;
 /* display: flex; */
@@ -182,7 +183,7 @@ color: #222222;
 }
 
 .stakeholder-action{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
 font-size: 12px;
 line-height: 14px;
 /* display: flex; */
@@ -199,14 +200,14 @@ align-items: center;
 }
 
 .goal-title{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   font-size: 18px;
   line-height: 21px;
   color: #222222;
 }
 
 .metric-title{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   font-size: 14px;
   line-height: 17px;
 
@@ -225,18 +226,19 @@ color: #222222;
 
 .goals{
   padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 1.5em;
 }
 
 .goals-heading{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco; */
   font-size: 15px;
   line-height: 14px;
   color: #9A9A9A;
+  padding-left: 10px;
 }
 
 .new-goal-button{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   font-size: 15px;
   line-height: 14px;
   text-align: right;
@@ -266,6 +268,8 @@ color: #222222;
     pointer-events: none;
     color: #aaa;
 }
+
+
 .form-inline{
   border-radius: 4px;
 }
@@ -289,7 +293,7 @@ color: #222222;
 }
 
 .task-name{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   font-size: 16px;
   line-height: 19px;
 
@@ -307,13 +311,13 @@ color: #222222;
 }
 
 .card-project-title{
- font-family: San Francisco Text;
+ /* font-family: San Francisco Text; */
  font-size: 24px;
  line-height: 29px;
 }
 
 .location-title{
- font-family: San Francisco Text;
+ /* font-family: San Francisco Text; */
  font-size: 12px;
  line-height: 14px;
  color: #9A9A9A;
@@ -336,13 +340,13 @@ color: #222222;
 }
 
 .card-project-title{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   font-size: 24px;
   line-height: 29px;
 }
 
 .location-title{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   font-size: 12px;
   line-height: 14px;
   color: #9A9A9A;
@@ -354,17 +358,70 @@ color: #222222;
 }
 
 .task-status-text{
-  font-family: San Francisco Text;
+  /* font-family: San Francisco Text; */
   font-size: 15px;
   line-height: 14px;
   /* text-align: right; */
-  color: rgb(184, 189, 110);
-  /* background: rgb(84, 136, 95); */
+  color:  #6EBD7F;
+  /* background:rgb(184, 189, 110); */
+
+
+  /* font-size: 10px; */
+  /* line-height: 12px; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
 }
 
 .location-title{
- font-family: San Francisco Text;
+ /* font-family: San Francisco Text; */
  font-size: 12px;
  line-height: 14px;
  color: #9A9A9A;
+}
+
+.table-res{
+  overflow-x: auto;
+  width: 100%;
+}
+
+/* #task-table td, #task-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#task-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#task-table tr:hover {background-color: #ddd;}
+
+#task-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+} */
+
+.default{
+  background: linear-gradient(226.66deg, #F5F6FA 14.14%, #F2F4F9 59.61%);
+}
+
+.p-right{
+  padding-right: -5px !important;
+}
+
+.list-grid{
+  height: 16px;
+  width: 16px;
+}
+
+.button-color{
+  background: #6EBD7F;
+  color:#fff;
+}
+
+.button-color:hover{
+  color:#fff;
+  background: #478555;
 }

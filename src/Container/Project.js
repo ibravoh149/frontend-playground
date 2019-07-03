@@ -14,64 +14,64 @@ class Project extends Component {
     };
   }
 
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (
       <div className="box">
-        <div className="container-fluid left-column">
-          <div className="row">
-            <div className="col-sm">
-              {/* <h4 className="project-title"> */}
+        {/* <div className="container-fluid left-column">
+         
+        </div> */}
+
+        <div class="d-flex bd-highlight" style={{marginBottom:"50px"}}>
+          <div class="p-2 flex-grow-1 bd-highlight">
+            <h4 className="project-title">
               Bon Ngia K.Dere Pond Cleanup #4
-              {/* </h4> */}
-            </div>
-            <div className="col-sm" />
-            <div className="col-sm" />
-            {/* <div className="col-sm" /> */}
-            <div className="col-sm float-lg-right">
-              <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li className="nav-item">
-                  <a
-                    className="nav-link active tab-text-style"
-                    id="pills-home-tab"
-                    data-toggle="pill"
-                    href="#pills-home"
-                    role="tab"
-                    aria-controls="pills-home"
-                    aria-selected="true"
-                  >
-                    Overview
+              </h4>
+          </div>
+          {/* <div class="p-2 bd-highlight">Flex item</div> */}
+          <div class="p-2 bd-highlight">
+            <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li className="nav-item">
+                <a
+                  className="nav-link active tab-text-style"
+                  id="pills-home-tab"
+                  data-toggle="pill"
+                  href="#pills-home"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  Overview
                   </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="nav-link tab-text-style"
-                    id="pills-profile-tab"
-                    data-toggle="pill"
-                    href="#pills-profile"
-                    role="tab"
-                    aria-controls="pills-profile"
-                    aria-selected="false"
-                  >
-                    Tasks
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link tab-text-style"
+                  id="pills-profile-tab"
+                  data-toggle="pill"
+                  href="#pills-profile"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  Tasks
                   </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="nav-link tab-text-style"
-                    id="pills-contact-tab"
-                    data-toggle="pill"
-                    href="#pills-contact"
-                    role="tab"
-                    aria-controls="pills-contact"
-                    aria-selected="false"
-                  >
-                    Settings
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link tab-text-style"
+                  id="pills-contact-tab"
+                  data-toggle="pill"
+                  href="#pills-contact"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                >
+                  Settings
                   </a>
-                </li>
-              </ul>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
 
