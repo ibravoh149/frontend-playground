@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import Bar from "react-meter-bar";
 import { Link } from "react-router-dom";
+// import { Map, GoogleApiWrapper } from 'google-maps-react';
+import map from '../assets/map.png'
+
+const mapStyles = {
+  width: '100%',
+  height: '100%',
+};
 
 export const Overview = ({ data }) => {
   const { imageUrl, description, title } = data;
@@ -9,6 +16,7 @@ export const Overview = ({ data }) => {
       <div className="col-12 col-md-4 align-items-center">
         <div className="image-box">
           <img className="image-box img-fluid" src={imageUrl} alt="project" />
+           <img className="map-box" src={map} alt="map"/>
           <br />
           <span className="image-title">{title}</span>
         </div>

@@ -36,7 +36,7 @@ function Goal() {
                 </p>
               </div>
               <Link
-                to={`/new-project`}
+                to={`#`}
                 className="col-md-4 col-sm-12 d-flex justify-content-end"
               >
                 <button
