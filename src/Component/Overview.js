@@ -20,6 +20,8 @@ export const Overview = ({ data }) => {
           <br />
           <span className="image-title">{title}</span>
         </div>
+        <br />
+
         <div className="project-description">
           <p className="desc-text">
             {description}
@@ -130,7 +132,7 @@ export const Overview = ({ data }) => {
           </table>
         </div>
       </div>
-      <div className="col-12 col-md-8">
+      <div className="col-12 col-md-8 right-column">
         <div class="d-flex bd-highlight goals">
           <div class="flex-grow-1 bd-highlight goals-heading">Goals</div>
           <div class="bd-highlight" />

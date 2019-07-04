@@ -8,7 +8,7 @@ function NewProjectC() {
   return (
     <div className="App">
       <Header />
-      <div style={{ padding: "34px" }}>
+      <div style={{ padding: "10px" }}>
         <NewProject />
       </div>
     </div>
