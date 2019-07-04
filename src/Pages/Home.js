@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <div className="App">
       <Header />
-      <div style={{padding:"34px"}}>
+      <div style={{padding:"10px"}}>
         <Home />
       </div>
     </div>
