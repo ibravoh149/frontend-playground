@@ -279,9 +279,14 @@ color: #222222;
   width: 1.5em;
 }
 
-.boxchecker input[type=checkbox] {
-  background-color: red;
+.boxchecker{
+  display: flex;
+  justify-content: space-around;
 }
+
+/* .boxchecker input[type=checkbox] {
+  background-color: red;
+} */
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
   background-color:black;
 }
